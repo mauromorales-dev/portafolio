@@ -150,6 +150,11 @@
             I turn data into decisions with modern pipelines, BI dashboards, and programmatic analysis.
           </p>
 
+          <a href="#projects" class="group mt-5 inline-flex items-center gap-2 text-g-blue font-medium hover:text-g-blue-hover transition-colors">
+            See how I helped companies save $240K and reduce churn by 10%
+            <span class="transition-transform group-hover:translate-x-1" aria-hidden="true">&rarr;</span>
+          </a>
+
           <div class="mt-8 flex flex-wrap gap-4">
             <a href="#projects" class="px-6 py-3 rounded-lg bg-g-blue hover:bg-g-blue-hover text-white font-medium transition-colors">View projects</a>
             <a href="#contact" class="px-6 py-3 rounded-lg border border-g-blue text-g-blue hover:bg-g-blue/5 font-medium transition-colors">Contact</a>
@@ -260,108 +265,226 @@
       </div>
     </section>
 
-    <!-- ===================== PROJECTS ===================== -->
+    <!-- ===================== FEATURED PROJECTS ===================== -->
     <section id="projects" class="bg-white py-20">
       <div class="container mx-auto px-6 max-w-6xl">
-        <p class="fade-up text-sm font-medium uppercase tracking-widest text-g-light">selected work</p>
-        <h2 class="fade-up font-bold text-4xl md:text-5xl mt-2 text-gray-900">Projects</h2>
+        <p class="fade-up text-sm font-medium uppercase tracking-widest text-g-light">case studies</p>
+        <h2 class="fade-up font-bold text-4xl md:text-5xl mt-2 text-gray-900">Featured Projects</h2>
+        <p class="fade-up mt-4 text-g-muted max-w-2xl leading-relaxed">Real problems, measurable outcomes. Each case study walks through the challenge, my approach, and the results delivered.</p>
 
-        <div class="grid md:grid-cols-3 gap-6 mt-12">
-          <!-- Project 1 -->
-          <article class="fade-up card-grad rounded-xl border border-g-border bg-white shadow-sm overflow-hidden flex flex-col">
-            <div class="h-40 bg-g-bg2 flex items-end justify-center gap-2 px-6 pb-6">
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:45%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:70%"></div>
-              <div class="w-[12%] rounded-t bg-g-green" style="height:55%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:90%"></div>
-              <div class="w-[12%] rounded-t bg-g-green" style="height:65%"></div>
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <p class="text-xs font-semibold uppercase tracking-widest text-g-blue">E-commerce Analytics</p>
-              <h3 class="font-semibold text-xl mt-1 text-gray-900">Conversion Funnel</h3>
-              <p class="mt-3 text-g-muted text-sm leading-relaxed">Event pipeline and funnel dashboard that identified conversion leaks at checkout.</p>
+        <div class="mt-12 flex flex-col gap-10">
 
-              <div class="grid grid-cols-3 gap-3 mt-5">
-                <div><p class="font-bold text-lg text-g-green">+32%</p><p class="text-xs text-g-light">conversion</p></div>
-                <div><p class="font-bold text-lg text-g-green">-18%</p><p class="text-xs text-g-light">abandonment</p></div>
-                <div><p class="font-bold text-lg text-gray-900">4.2M</p><p class="text-xs text-g-light">events/month</p></div>
+          <!-- ===== Case Study 1 ===== -->
+          <article class="fade-up group rounded-2xl border border-g-border bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+            <div class="grid md:grid-cols-5 gap-0">
+              <!-- Content -->
+              <div class="md:col-span-3 p-8 md:p-10 flex flex-col">
+                <div class="flex items-center justify-between gap-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-blue">Predictive Analytics</p>
+                  <span class="shrink-0 px-3 py-1 rounded-full text-xs font-semibold bg-g-green text-white">-10% Churn</span>
+                </div>
+                <h3 class="font-bold text-2xl mt-2 text-gray-900">Customer Churn Prediction &amp; Retention Dashboard</h3>
+
+                <div class="mt-5">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">Problem</p>
+                  <p class="mt-1 text-g-muted text-sm leading-relaxed">A subscription-based e-commerce company had a 15% quarterly churn rate and no visibility into at-risk customers.</p>
+                </div>
+
+                <div class="mt-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">My Role &amp; Approach</p>
+                  <p class="mt-1 text-g-muted text-sm leading-relaxed">Led the end-to-end analysis. Extracted 2.5M transaction records from SQL Server, built a churn risk model in Python (pandas, scikit-learn) using a random forest classifier, and designed a real-time Power BI dashboard for the customer success team.</p>
+                </div>
+
+                <div class="mt-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">Results</p>
+                  <div class="grid grid-cols-3 gap-3 mt-2">
+                    <div><p class="font-bold text-lg text-g-green">-10%</p><p class="text-xs text-g-light">churn in 4 months</p></div>
+                    <div><p class="font-bold text-lg text-gray-900">$240K</p><p class="text-xs text-g-light">saved annually</p></div>
+                    <div><p class="font-bold text-lg text-g-green">95%</p><p class="text-xs text-g-light">CS adoption</p></div>
+                  </div>
+                </div>
+
+                <div class="mt-6 pt-5 border-t border-g-border flex items-center justify-between gap-4">
+                  <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">SQL Server</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Python</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Power BI</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Git</span>
+                  </div>
+                  <a href="https://github.com/mauromorales/churn-analysis" target="_blank" rel="noopener noreferrer" class="shrink-0 inline-flex items-center gap-1.5 text-sm font-medium text-g-muted hover:text-g-blue transition-colors">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+                    View code
+                  </a>
+                </div>
               </div>
 
-              <div class="mt-6 pt-4 border-t border-g-border flex items-center justify-between">
-                <div class="flex flex-wrap gap-2">
-                  <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">dbt</span>
-                  <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Superset</span>
+              <!-- Visual: Churn Risk by Segment -->
+              <div class="md:col-span-2 bg-g-bg2 border-t md:border-t-0 md:border-l border-g-border p-8 flex flex-col justify-center">
+                <p class="text-xs font-semibold uppercase tracking-widest text-g-light text-center">Churn Risk by Customer Segment</p>
+                <div class="mt-6 flex items-end justify-center gap-6 h-40">
+                  <div class="flex flex-col items-center gap-2 h-full justify-end">
+                    <span class="text-sm font-bold text-g-green">12%</span>
+                    <div class="w-10 rounded-t bg-g-green" style="height:25%"></div>
+                    <span class="text-xs text-g-muted">Low</span>
+                  </div>
+                  <div class="flex flex-col items-center gap-2 h-full justify-end">
+                    <span class="text-sm font-bold text-g-blue">38%</span>
+                    <div class="w-10 rounded-t bg-g-blue" style="height:55%"></div>
+                    <span class="text-xs text-g-muted">Medium</span>
+                  </div>
+                  <div class="flex flex-col items-center gap-2 h-full justify-end">
+                    <span class="text-sm font-bold text-red-500">71%</span>
+                    <div class="w-10 rounded-t bg-red-500" style="height:90%"></div>
+                    <span class="text-xs text-g-muted">High</span>
+                  </div>
                 </div>
-                <a href="https://github.com/mauromorales" target="_blank" rel="noopener noreferrer" aria-label="Ver en GitHub" class="text-g-muted hover:text-g-blue transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
-                </a>
               </div>
             </div>
           </article>
 
-          <!-- Project 2 -->
-          <article class="fade-up card-grad rounded-xl border border-g-border bg-white shadow-sm overflow-hidden flex flex-col">
-            <div class="h-40 bg-g-bg2 flex items-end justify-center gap-2 px-6 pb-6">
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:80%"></div>
-              <div class="w-[12%] rounded-t bg-g-green" style="height:50%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:65%"></div>
-              <div class="w-[12%] rounded-t bg-g-green" style="height:40%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:75%"></div>
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <p class="text-xs font-semibold uppercase tracking-widest text-g-green">Cost Control</p>
-              <h3 class="font-semibold text-xl mt-1 text-gray-900">Cost Model</h3>
-              <p class="mt-3 text-g-muted text-sm leading-relaxed">Cost attribution system by business unit with automatic deviation alerts.</p>
-
-              <div class="grid grid-cols-3 gap-3 mt-5">
-                <div><p class="font-bold text-lg text-g-green">-24%</p><p class="text-xs text-g-light">spend</p></div>
-                <div><p class="font-bold text-lg text-gray-900">12h→1h</p><p class="text-xs text-g-light">reporting</p></div>
-                <div><p class="font-bold text-lg text-g-green">98%</p><p class="text-xs text-g-light">accuracy</p></div>
+          <!-- ===== Case Study 2 ===== -->
+          <article class="fade-up group rounded-2xl border border-g-border bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+            <div class="grid md:grid-cols-5 gap-0">
+              <!-- Visual: Actual vs Predicted -->
+              <div class="md:col-span-2 md:order-first bg-g-bg2 border-b md:border-b-0 md:border-r border-g-border p-8 flex flex-col justify-center">
+                <p class="text-xs font-semibold uppercase tracking-widest text-g-light text-center">Actual vs Predicted Sales</p>
+                <svg viewBox="0 0 240 150" class="w-full h-auto mt-5" role="img" aria-label="Line chart comparing actual versus predicted sales over six months">
+                  <line x1="30" y1="10" x2="30" y2="120" stroke="#dadce0" stroke-width="1.5" />
+                  <line x1="30" y1="120" x2="230" y2="120" stroke="#dadce0" stroke-width="1.5" />
+                  <!-- Actual -->
+                  <polyline points="30,95 70,80 110,88 150,55 190,48 230,30" fill="none" stroke="#1a73e8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <!-- Predicted (dashed) -->
+                  <polyline points="30,98 70,76 110,84 150,60 190,44 230,34" fill="none" stroke="#34a853" stroke-width="2.5" stroke-dasharray="5 4" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div class="flex items-center justify-center gap-5 mt-3">
+                  <span class="flex items-center gap-1.5 text-xs text-g-muted"><span class="w-3 h-0.5 bg-g-blue inline-block"></span>Actual</span>
+                  <span class="flex items-center gap-1.5 text-xs text-g-muted"><span class="w-3 h-0.5 bg-g-green inline-block"></span>Predicted</span>
+                </div>
               </div>
 
-              <div class="mt-6 pt-4 border-t border-g-border flex items-center justify-between">
-                <div class="flex flex-wrap gap-2">
-                  <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">PostgreSQL</span>
-                  <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Python</span>
+              <!-- Content -->
+              <div class="md:col-span-3 p-8 md:p-10 flex flex-col">
+                <div class="flex items-center justify-between gap-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-blue">Forecasting &amp; Optimization</p>
+                  <span class="shrink-0 px-3 py-1 rounded-full text-xs font-semibold bg-g-green text-white">+22% Accuracy</span>
                 </div>
-                <a href="https://github.com/mauromorales" target="_blank" rel="noopener noreferrer" aria-label="Ver en GitHub" class="text-g-muted hover:text-g-blue transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
-                </a>
+                <h3 class="font-bold text-2xl mt-2 text-gray-900">Sales Forecasting &amp; Inventory Optimization</h3>
+
+                <div class="mt-5">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">Problem</p>
+                  <p class="mt-1 text-g-muted text-sm leading-relaxed">A retail chain suffered from overstock and stockouts, losing 8% of potential revenue due to inaccurate demand forecasts.</p>
+                </div>
+
+                <div class="mt-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">My Role &amp; Approach</p>
+                  <p class="mt-1 text-g-muted text-sm leading-relaxed">Built an automated ETL pipeline with Alteryx and Docker to process historical sales from PostgreSQL. Developed a time-series forecast model in Python (numpy, matplotlib) and deployed interactive dashboards in Apache Superset for supply chain managers.</p>
+                </div>
+
+                <div class="mt-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">Results</p>
+                  <div class="grid grid-cols-3 gap-3 mt-2">
+                    <div><p class="font-bold text-lg text-g-green">+22%</p><p class="text-xs text-g-light">forecast accuracy</p></div>
+                    <div><p class="font-bold text-lg text-g-green">-15%</p><p class="text-xs text-g-light">overstock</p></div>
+                    <div><p class="font-bold text-lg text-g-green">+18%</p><p class="text-xs text-g-light">inventory turnover</p></div>
+                  </div>
+                </div>
+
+                <div class="mt-6 pt-5 border-t border-g-border flex items-center justify-between gap-4">
+                  <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">PostgreSQL</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Alteryx</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Docker</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Python</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Superset</span>
+                  </div>
+                  <a href="https://github.com/mauromorales/sales-forecast" target="_blank" rel="noopener noreferrer" class="shrink-0 inline-flex items-center gap-1.5 text-sm font-medium text-g-muted hover:text-g-blue transition-colors">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+                    View code
+                  </a>
+                </div>
               </div>
             </div>
           </article>
 
-          <!-- Project 3 -->
-          <article class="fade-up card-grad rounded-xl border border-g-border bg-white shadow-sm overflow-hidden flex flex-col">
-            <div class="h-40 bg-g-bg2 flex items-end justify-center gap-2 px-6 pb-6">
-              <div class="w-[12%] rounded-t bg-g-green" style="height:60%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:85%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:50%"></div>
-              <div class="w-[12%] rounded-t bg-g-green" style="height:70%"></div>
-              <div class="w-[12%] rounded-t bg-g-blue" style="height:95%"></div>
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <p class="text-xs font-semibold uppercase tracking-widest text-g-blue">Data Engineering</p>
-              <h3 class="font-semibold text-xl mt-1 text-gray-900">Data Pipeline</h3>
-              <p class="mt-3 text-g-muted text-sm leading-relaxed">Orchestrated ELT pipeline consolidating scattered sources into a single reliable warehouse.</p>
+          <!-- ===== Case Study 3 ===== -->
+          <article class="fade-up group rounded-2xl border border-g-border bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+            <div class="grid md:grid-cols-5 gap-0">
+              <!-- Content -->
+              <div class="md:col-span-3 p-8 md:p-10 flex flex-col">
+                <div class="flex items-center justify-between gap-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-blue">BI &amp; Cost Control</p>
+                  <span class="shrink-0 px-3 py-1 rounded-full text-xs font-semibold bg-g-green text-white">-18% Costs</span>
+                </div>
+                <h3 class="font-bold text-2xl mt-2 text-gray-900">Real-time Financial Cost Control Platform</h3>
 
-              <div class="grid grid-cols-3 gap-3 mt-5">
-                <div><p class="font-bold text-lg text-gray-900">9</p><p class="text-xs text-g-light">sources</p></div>
-                <div><p class="font-bold text-lg text-g-green">99.9%</p><p class="text-xs text-g-light">uptime</p></div>
-                <div><p class="font-bold text-lg text-gray-900">15min</p><p class="text-xs text-g-light">latency</p></div>
+                <div class="mt-5">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">Problem</p>
+                  <p class="mt-1 text-g-muted text-sm leading-relaxed">A mid-sized company had no centralized view of operational costs across 12 departments, leading to overspending and delayed budget adjustments.</p>
+                </div>
+
+                <div class="mt-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">My Role &amp; Approach</p>
+                  <p class="mt-1 text-g-muted text-sm leading-relaxed">Designed a cloud-based data warehouse on DigitalOcean with PostgreSQL. Used Alteryx for complex transformations and Docker for containerized execution, then built an interactive Power BI dashboard with row-level security and real-time cost alerts.</p>
+                </div>
+
+                <div class="mt-4">
+                  <p class="text-xs font-semibold uppercase tracking-widest text-g-light">Results</p>
+                  <div class="grid grid-cols-3 gap-3 mt-2">
+                    <div><p class="font-bold text-lg text-g-green">-18%</p><p class="text-xs text-g-light">cost reduction</p></div>
+                    <div><p class="font-bold text-lg text-gray-900">3d&rarr;15m</p><p class="text-xs text-g-light">reporting time</p></div>
+                    <div><p class="font-bold text-lg text-g-green">12</p><p class="text-xs text-g-light">departments live</p></div>
+                  </div>
+                </div>
+
+                <div class="mt-6 pt-5 border-t border-g-border flex items-center justify-between gap-4">
+                  <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">PostgreSQL</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Alteryx</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Docker</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Power BI</span>
+                    <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Git</span>
+                  </div>
+                  <a href="https://github.com/mauromorales/cost-control" target="_blank" rel="noopener noreferrer" class="shrink-0 inline-flex items-center gap-1.5 text-sm font-medium text-g-muted hover:text-g-blue transition-colors">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+                    View code
+                  </a>
+                </div>
               </div>
 
-              <div class="mt-6 pt-4 border-t border-g-border flex items-center justify-between">
-                <div class="flex flex-wrap gap-2">
-                  <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">Airflow</span>
-                  <span class="px-2 py-0.5 rounded text-xs bg-g-bg2 text-g-muted">dbt</span>
+              <!-- Visual: Cost by Department Before vs After -->
+              <div class="md:col-span-2 bg-g-bg2 border-t md:border-t-0 md:border-l border-g-border p-8 flex flex-col justify-center">
+                <p class="text-xs font-semibold uppercase tracking-widest text-g-light text-center">Cost by Department (Before vs After)</p>
+                <div class="mt-6 flex items-end justify-center gap-6 h-40">
+                  <div class="flex flex-col items-center gap-2 h-full justify-end">
+                    <div class="flex items-end gap-1 h-full">
+                      <div class="w-5 rounded-t bg-g-light/60" style="height:88px"></div>
+                      <div class="w-5 rounded-t bg-g-green" style="height:60px"></div>
+                    </div>
+                    <span class="text-xs text-g-muted">Marketing</span>
+                  </div>
+                  <div class="flex flex-col items-center gap-2 h-full justify-end">
+                    <div class="flex items-end gap-1 h-full">
+                      <div class="w-5 rounded-t bg-g-light/60" style="height:110px"></div>
+                      <div class="w-5 rounded-t bg-g-green" style="height:82px"></div>
+                    </div>
+                    <span class="text-xs text-g-muted">Operations</span>
+                  </div>
+                  <div class="flex flex-col items-center gap-2 h-full justify-end">
+                    <div class="flex items-end gap-1 h-full">
+                      <div class="w-5 rounded-t bg-g-light/60" style="height:70px"></div>
+                      <div class="w-5 rounded-t bg-g-green" style="height:52px"></div>
+                    </div>
+                    <span class="text-xs text-g-muted">IT</span>
+                  </div>
                 </div>
-                <a href="https://github.com/mauromorales" target="_blank" rel="noopener noreferrer" aria-label="Ver en GitHub" class="text-g-muted hover:text-g-blue transition-colors">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
-                </a>
+                <div class="flex items-center justify-center gap-5 mt-4">
+                  <span class="flex items-center gap-1.5 text-xs text-g-muted"><span class="w-3 h-3 bg-g-light/60 inline-block rounded-sm"></span>Before</span>
+                  <span class="flex items-center gap-1.5 text-xs text-g-muted"><span class="w-3 h-3 bg-g-green inline-block rounded-sm"></span>After</span>
+                </div>
               </div>
             </div>
           </article>
+
         </div>
       </div>
     </section>
